@@ -401,18 +401,12 @@ html {
     color: rgba(0, 0, 0, 0.5);
 }
 
-#footer .social a {
-    padding-right: 10px;
-}
-
 #footer .copyright {
     margin-top: 16px;
 }
 
 #footer .copyright a {
     color: rgba(0, 0, 0, 0.5);
-    display: inline-block;
-    padding-top: 10px;
 }
 
 #footer .social a:hover,
