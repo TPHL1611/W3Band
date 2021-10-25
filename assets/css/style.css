@@ -53,13 +53,15 @@ html {
 }
 
 .btn {
-    text-decoration: none;
     background-color: black;
     color: white;
-    padding: 12px 18px;
-    margin-top: 15px;
     display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 15px;
+    margin-top: 15px;
     border: none;
+    border-radius: 5px;
 }
 
 .btn:hover {
@@ -190,7 +192,8 @@ html {
     position: relative;
     background-color: grey;
     padding-top: 50%; /* Đặt padding với giá trị % thì chiều cao luôn bằng % chiều ngang*/
-    background: url('/assets/img/slider/slider1.jpg')  top center / cover no-repeat;
+    background: url('../img/slider/slider1.jpg')  top center / cover no-repeat;
+    margin-top: 46px;
 }
 
 #slider .text-content {
@@ -257,7 +260,7 @@ html {
 }
 
 #content .member-img {
-    border-radius: 4px;
+    border-radius: 5px;
     width: 154px;
 }
 
@@ -288,14 +291,14 @@ html {
 
 .ticket-list .quantity {
     float: right;
-    width: 24px;
-    height: 24px;
     text-align: center;
     line-height: 24px;
-    background-color: black;
-    border-radius: 50%;
+    width: 24px;
     margin-top: -1px;
     margin-right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
 }
 
 /*Kết hợp padding với margin âm để canh lề*/
@@ -306,6 +309,7 @@ html {
 .place-list .place-img {
     width: 100%;
     display: block;
+    border-radius: 5px;
 }
 
 .place-list .place-img:hover {

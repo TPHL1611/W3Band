@@ -3,15 +3,18 @@
     
 }
 
-/*Tablet*/
-@media (min-width: 740px) and (max-width: 1024px) {
-
+/*Tablet and mobile*/
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
 }
 
 /*Mobile*/
 @media (max-width: 740px) {
+    .s-full-width,
     .s-col-full {
-        width: 100%;
+        width: 100% !important;
     }
 
     #header {
@@ -47,5 +50,13 @@
 
     #content .member-img {
         width: 60%;
+    }
+
+    #slider .text-content {
+        font-size: 15px;
+    }
+
+    #slider .text-description {
+        padding-top: 10px;
     }
 }
